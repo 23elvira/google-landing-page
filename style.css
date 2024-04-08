@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{margin: 0;
+padding: 0;
+box-sizing: 0;}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+header{padding: 1rem 1rem 2rem;
+}
+i{  color: black;
+    opacity: 0.6;
+    transition: opacity 0.3s;
+    font-size: 20px;
+    vertical-align: middle;
+    margin: 0 10px;;}
+
+i:hover{opacity: 1;}
+
+.top_left{float:left;
+    margin: 0.5rem;}
+
+.top_right{float:right;
+    margin: 0.5rem;
+   }
+
+.float_clear{clear:both;}
+
+a{text-decoration: none;
+cursor: pointer;
+margin-right: 0.65rem;
+margin-left: 0.65rem;
+}
+
+a:hover{text-decoration: underline;}
+
+.a_black{color:rgb(61, 52, 52);}
+
+#signin_button{border:1px solid rgba(34, 115, 173, 0);
+background-color:rgb(67, 152, 194);
+padding: 4px 11px 4px;
+border-radius: 3px;
+text-decoration: none;
+color: white;
+font-weight: bold;
+border-radius: 4px;}
+
+#signin_button:hover{background-color: rgb(64, 126, 190);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+transition: all 0.9;}
+
+#google-logo{display: block;
+    height: 92px;
+    margin: 25vh auto 0;}
+
+.search_space{ width: fit-content;
+    margin: 28px auto;
+    border: 1px solid lightgray;
+    border-radius: 28px;
+    padding: 10px 25px;}
+
+.search_space:hover{box-shadow: 0px 1px 6px rgba(32,33,36,0.28);
+}
+
+#search{
+    border:none;
+    outline: none;
+    vertical-align: 20%;
+    min-width:25vw;
+    max-width: 80vw;
+    margin-left: 10px;
+    font-size: 1.2rem}
+
+.search_buttons{text-align: center;
+margin: 10px auto 16px;}
+
+.search_button{margin-right: 10px;
+padding:10px 15px;
+background-color: rgb(199, 197, 197);
+border:none;
+outline: none;
+border-radius: 4px;
+font-size: smaller;
+color:rgb(52, 50, 50);}
+
+.search_button:hover{color:black;
+font-weight: bold;
+box-shadow: 1px 1px rgba(138, 131, 131, 0.439);
+transition:  0.6s;}
+
+.paragraf{text-align: center;}
+
+footer{background-color: rgba(215, 212, 212, 0.538);
+position:fixed;
+bottom:0px;
+width:100%;
+padding: 15px;
+}
+
+
+
+.country{padding-bottom: 10px;
+    border-bottom: 1px solid rgb(195, 186, 186);
+}
+.leaf{text-align: center;}
+
+
+.leaf{text-align: center;
+display: inline-block;}
+
+.footer_left,.footer_right{padding-top:10px;}
+
+.a_gray{color:rgb(101, 96, 96);}
+
+.footer_left{float:left;}
+
+.footer_right{float: right;
+    margin-right:30px;}
+   
+
+
+
+
+
+
+
+
